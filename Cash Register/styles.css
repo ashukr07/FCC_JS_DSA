@@ -1,0 +1,89 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+}
+h1 {
+    text-align: center;
+    margin-top: 0;
+    padding: 20px 0;
+    background-color: #007bff;
+    color: #fff;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Container Styling */
+  div {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  input {
+    padding: 8px 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  /* Button Styling */
+  button {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Change Output Styling */
+  #change-due {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-top: 15px;
+    padding: 10px;
+    background: #e8f0fe;
+    border: 1px solid #d1e9fc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  /* Container Alignment */
+  body > div,
+  button,
+  #change-due {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  /* Focus and Active States */
+  input:focus {
+    outline: 2px solid #007bff;
+  }
+  
+  button:focus {
+    outline: 2px solid #0056b3;
+  }
+  
