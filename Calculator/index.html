@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Funky Calculator</title>
+  <!-- Include Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container d-flex justify-content-center align-items-center min-vh-100">
+    <div class="calculator">
+      <!-- Display -->
+      <div class="display" id="display">0</div>
+      
+      <!-- Button Grid -->
+      <div class="buttons row">
+        <div class="col-3">
+          <button id="clear" class="btn btn-dark btn-block">C</button>
+        </div>
+        <div class="col-3">
+          <button id="divide" class="btn btn-warning btn-block">/</button>
+        </div>
+        <div class="col-3">
+          <button id="multiply" class="btn btn-warning btn-block">*</button>
+        </div>
+        <div class="col-3">
+          <button id="subtract" class="btn btn-warning btn-block">-</button>
+        </div>
+        
+        <div class="col-3">
+          <button id="seven" class="btn btn-info btn-block">7</button>
+        </div>
+        <div class="col-3">
+          <button id="eight" class="btn btn-info btn-block">8</button>
+        </div>
+        <div class="col-3">
+          <button id="nine" class="btn btn-info btn-block">9</button>
+        </div>
+        <div class="col-3">
+          <button id="add" class="btn btn-warning btn-block">+</button>
+        </div>
+
+        <div class="col-3">
+          <button id="four" class="btn btn-info btn-block">4</button>
+        </div>
+        <div class="col-3">
+          <button id="five" class="btn btn-info btn-block">5</button>
+        </div>
+        <div class="col-3">
+          <button id="six" class="btn btn-info btn-block">6</button>
+        </div>
+        <div class="col-3">
+          <button id="equals" class="btn btn-success btn-block">=</button>
+        </div>
+
+        <div class="col-3">
+          <button id="one" class="btn btn-info btn-block">1</button>
+        </div>
+        <div class="col-3">
+          <button id="two" class="btn btn-info btn-block">2</button>
+        </div>
+        <div class="col-3">
+          <button id="three" class="btn btn-info btn-block">3</button>
+        </div>
+        <div class="col-3">
+          <button id="decimal" class="btn btn-info btn-block">.</button>
+        </div>
+
+        <div class="col-3">
+          <button id="zero" class="btn btn-info btn-block">0</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Include jQuery and Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
